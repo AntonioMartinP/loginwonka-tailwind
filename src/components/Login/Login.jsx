@@ -28,7 +28,7 @@ const handleDataSend=(event)=>{
     setDatasend(true);
 }
 
-const errorMail=((username==="" || !username.includes("@"))&& datasend);
+const errorMail=((username==="" || !username.includes("@")) && datasend);
 const errorPass=((password==="" || password.length<6)&& datasend);
 
 return(<>
